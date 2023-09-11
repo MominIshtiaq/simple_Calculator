@@ -4,9 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Calculator</title>
+    <!-- CSS only -->
     <link rel="stylesheet" href="style.css" />
+    <!--BoxIcon-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="calculator">
+      <div class="grid_container">
+        <input type="text" class="input" placeholder="0" />
+        <div class="top">
+          <button class="grid_btn">C</button>
+          <button class="grid_btn"><i class="bx bxs-tag-x"></i></button>
+          <button class="grid_btn">%</button>
+        </div>
+        <div class="top-middle">
+          <button class="grid_btn">7</button>
+          <button class="grid_btn">8</button>
+          <button class="grid_btn">9</button>
+          <button class="grid_btn"><i class="bx bx-x"></i></button>
+        </div>
+        <div class="middle">
+          <button class="grid_btn">4</button>
+          <button class="grid_btn">5</button>
+          <button class="grid_btn">6</button>
+          <button class="grid_btn">/</button>
+        </div>
+        <div class="bottom">
+          <button class="grid_btn">1</button>
+          <button class="grid_btn">2</button>
+          <button class="grid_btn">3</button>
+          <button class="grid_btn"><i class="bx bx-plus"></i></button>
+        </div>
+        <div class="lower_bottom">
+          <button class="grid_btn">0</button>
+          <button class="grid_btn">.</button>
+          <button class="grid_btn">=</button>
+          <button class="grid_btn"><i class="bx bx-minus"></i></button>
+        </div>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
