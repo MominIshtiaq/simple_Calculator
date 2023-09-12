@@ -73,6 +73,15 @@ body {
   padding: 1rem 2.4rem;
 }
 
+.container .top {
+  width: 100%;
+}
+
+.top .btn {
+  width: 100%;
+  border-radius: 6px;
+}
+
 @media (max-width: 500px) {
   .btn {
     padding: 0.9rem 1.9rem;
