@@ -14,10 +14,6 @@ Array.from(buttons).forEach((button) => {
           expression = "";
           input.value = expression;
           break;
-        case "del":
-          expression = expression.slice(0, -1);
-          input.value = expression;
-          break;
         case `<i class="bx bx-plus"></i>`:
           expression = expression += "+";
           input.value = expression;
@@ -28,10 +24,6 @@ Array.from(buttons).forEach((button) => {
           break;
         case `<i class="bx bx-x"></i>`:
           expression = expression += "*";
-          input.value = expression;
-          break;
-        case `%`:
-          expression = expression / 100;
           input.value = expression;
           break;
         default:
